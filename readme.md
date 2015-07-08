@@ -24,7 +24,7 @@ arrObjValues([{
 }, {
 	cat: 'foo'
 }]);
-//=> ['meow', 'bar', 'foo']
+//=> ['meow', 'bar', 'foo', 'cat']
 ```
 
 
