@@ -1,0 +1,35 @@
+{
+  "name": "arr-obj-values",
+  "version": "1.0.0",
+  "description": "Get the unique values of an array of objects",
+  "license": "MIT",
+  "repository": "kevva/arr-obj-values",
+  "author": {
+    "email": "kevinmartensson@gmail.com",
+    "name": "Kevin Martensson",
+    "url": "github.com/kevva"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "array",
+    "object",
+    "unique",
+    "values"
+  ],
+  "dependencies": {
+    "array-union": "^1.0.1",
+    "object-values": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.0.4",
+    "deep-equal": "^1.0.0"
+  }
+}
