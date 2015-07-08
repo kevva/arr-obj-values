@@ -1,5 +1,4 @@
 'use strict';
-var arrayUnion = require('array-union');
 var objectValues = require('object-values');
 
 module.exports = function (arr) {

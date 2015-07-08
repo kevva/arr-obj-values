@@ -24,7 +24,6 @@
     "values"
   ],
   "dependencies": {
-    "array-union": "^1.0.1",
     "object-values": "^1.0.0"
   },
   "devDependencies": {
