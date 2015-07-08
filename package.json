@@ -1,7 +1,7 @@
 {
   "name": "arr-obj-values",
   "version": "1.0.0",
-  "description": "Get the unique values of an array of objects",
+  "description": "Get the values of an array of objects",
   "license": "MIT",
   "repository": "kevva/arr-obj-values",
   "author": {
@@ -21,7 +21,6 @@
   "keywords": [
     "array",
     "object",
-    "unique",
     "values"
   ],
   "dependencies": {

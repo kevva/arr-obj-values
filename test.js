@@ -14,5 +14,5 @@ test(function (t) {
 		cat: 'foo'
 	}]);
 
-	t.assert(deepEqual(arr, ['meow', 'bar', 'foo']));
+	t.assert(deepEqual(arr, ['meow', 'bar', 'meow', 'foo']));
 });

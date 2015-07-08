@@ -10,7 +10,7 @@ module.exports = function (arr) {
 	}
 
 	for (var i = 0; i < arr.length; i++) {
-		ret = arrayUnion(ret, objectValues(arr[i]));
+		ret = ret.concat(objectValues(arr[i]));
 	}
 
 	return ret;

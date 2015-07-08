@@ -1,6 +1,6 @@
 # arr-obj-values [![Build Status](https://travis-ci.org/kevva/arr-obj-values.svg?branch=master)](https://travis-ci.org/kevva/arr-obj-values)
 
-> Get the unique values of an array of objects
+> Get the values of an array of objects
 
 
 ## Install
