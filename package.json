@@ -5,15 +5,15 @@
   "license": "MIT",
   "repository": "kevva/arr-obj-values",
   "author": {
+    "name": "Kevin Mårtensson",
     "email": "kevinmartensson@gmail.com",
-    "name": "Kevin Martensson",
     "url": "github.com/kevva"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && ava"
   },
   "files": [
     "index.js"
@@ -27,7 +27,10 @@
     "object-values": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "^0.0.4",
-    "deep-equal": "^1.0.0"
+    "ava": "*",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
   }
 }

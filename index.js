@@ -1,16 +1,10 @@
 'use strict';
-var objectValues = require('object-values');
+const objectValues = require('object-values');
 
-module.exports = function (arr) {
-	var ret = [];
-
+module.exports = arr => {
 	if (!Array.isArray(arr)) {
-		throw new TypeError('Expected an array');
+		throw new TypeError(`Expected an \`Array\`, got \`${typeof arr}\``);
 	}
 
-	for (var i = 0; i < arr.length; i++) {
-		ret = ret.concat(objectValues(arr[i]));
-	}
-
-	return ret;
+	return arr.map(x => objectValues(x)).reduce((a, b) => a.concat(b), []);
 };

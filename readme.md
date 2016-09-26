@@ -13,7 +13,7 @@ $ npm install --save arr-obj-values
 ## Usage
 
 ```js
-var arrObjValues = require('arr-obj-values');
+const arrObjValues = require('arr-obj-values');
 
 arrObjValues([{
 	cat: 'meow'
@@ -34,7 +34,6 @@ arrObjValues([{
 
 #### array
 
-*Required*  
 Type: `array`
 
 An array of objects with the values you want to get.
@@ -42,4 +41,4 @@ An array of objects with the values you want to get.
 
 ## License
 
-MIT © [Kevin Martensson](http://github.com/kevva)
+MIT © [Kevin Mårtensson](https://github.com/kevva)
